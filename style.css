@@ -1,0 +1,116 @@
+/* Estilo Geral */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+--color-white:white;
+--color-black:black;
+--color-gray:gray;
+}
+
+html{
+    height: 500vh;
+}
+
+body{
+    background-color: var(--color-black);
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.interface{
+    padding: 40px 4%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-size: 400;
+    background-color:white;
+    color: black;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #ffeeee;
+    transform: scale(1.05);
+}
+
+/* Estilizando o header */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    padding: 60px 4%;
+}
+
+header .interface{
+    padding: 0;
+}
+
+/* Inicio: Estilo para rolagem do site */
+
+header.rolagem-menu{
+    background-color: var(--color-white);
+    padding: 30px 4%;
+    z-index: 999999;
+}
+
+
+header.rolagem-menu a{
+    color: var(--color-black);
+}
+
+header.rolagem-menu .btn-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-size: 400;
+    background-color:var(--color-black);
+    color: var(--color-white);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header a{
+    color: var(--color-white);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: var(--color-gray);
+    transform: scale(1.05);
+}
