@@ -114,3 +114,37 @@ header a:hover{
     color: var(--color-gray);
     transform: scale(1.05);
 }
+
+/* Estilizando Section Home */
+
+section.home {
+    padding: 40px 10%;
+    margin-top: 150px;
+    height: 500px;
+}
+
+section.home .flex{
+    gap: 90px;
+}
+
+section.home .flex .text-home{
+    text-align: center;
+}
+
+section.home h1{
+    color: var(--color-white);
+    font-size: 60px;
+}
+
+section.home h2{
+    color: var(--color-white);
+    font-size: 30px;
+}
+
+section.home h1 span{
+    color: var(--color-gray);
+}
+
+section.home h2 span{
+    color: var(--color-gray);
+}
