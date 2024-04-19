@@ -1,3 +1,3 @@
-<h1 text-align='center'>StillCode</h1>
+<h1 align='center'>StillCode</h1>
 
-<h2>Codifique seu estilo</h2>
+<h2 align='center'>Codifique seu estilo</h2>
