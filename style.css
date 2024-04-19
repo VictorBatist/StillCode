@@ -148,3 +148,17 @@ section.home h1 span{
 section.home h2 span{
     color: var(--color-gray);
 }
+
+/* Estilizando Page Especialidades */
+
+section.especialidades{
+    padding: 80px 4%;
+}
+
+section .especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .box-especialidades{
+    color: var(--color-white);
+}
