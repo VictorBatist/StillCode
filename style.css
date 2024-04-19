@@ -120,7 +120,7 @@ header a:hover{
 section.home {
     padding: 40px 10%;
     margin-top: 150px;
-    height: 500px;
+    height: 400px;
 }
 
 section.home .flex{
@@ -147,4 +147,47 @@ section.home h1 span{
 
 section.home h2 span{
     color: var(--color-gray);
+}
+
+/* Estilizando Page Especialidades */
+
+section.especialidades{
+    padding: 80px 4%;
+}
+
+section.especialidades h2{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 30px;
+}
+
+section.especialidades span{
+   color: var(--color-gray);
+}
+
+section .especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .box-especialidades{
+    color: var(--color-white);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 35px;
+    transition: .3s;
+}
+
+.especialidades .box-especialidades:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(199, 199, 199);
+}
+
+.especialidades .box-especialidades i{
+    font-size: 60px;
+    color: var(--color-gray);
+}
+
+.especialidades .box-especialidades h3{
+    font-size: 30px;
+    margin: 11px 0;
 }
