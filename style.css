@@ -36,6 +36,16 @@ body{
     justify-content: space-between;
 }
 
+h2{
+    color: var(--color-white);
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 span{
+    color: var(--color-gray);
+}
+
 .btn-contato button{
     padding: 10px 30px;
     font-size: 15px;
@@ -75,7 +85,6 @@ header.rolagem-menu{
     padding: 30px 4%;
     z-index: 999999;
 }
-
 
 header.rolagem-menu a{
     color: var(--color-black);
@@ -155,16 +164,6 @@ section.especialidades{
     padding: 80px 4%;
 }
 
-section.especialidades h2{
-    color: var(--color-white);
-    text-align: center;
-    font-size: 30px;
-}
-
-section.especialidades span{
-   color: var(--color-gray);
-}
-
 section .especialidades .flex{
     gap: 60px;
 }
@@ -190,4 +189,46 @@ section .especialidades .flex{
 .especialidades .box-especialidades h3{
     font-size: 30px;
     margin: 11px 0;
+}
+
+/* Estilizando page home */
+
+section.sobre{
+    padding: 40px 8%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .text-sobre{
+    color: var(--color-white);
+    text-align: center;
+    margin: 20px;
+}
+
+.sobre .text-sobre h2{
+    margin-bottom: 30px;
+}
+
+.sobre .text-sobre p{
+text-align: justify;
+font-size: 20px;
+}
+
+.btn-redes-sociais button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 6px 5px;
+    transition: 1s;
+}
+
+.sobre .text-sobre .btn-redes-sociais{
+    margin-top: 20px;
+     
 }
