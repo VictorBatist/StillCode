@@ -76,6 +76,10 @@ header .interface{
 
 /* Menu mobile */
 
+.btn-abrir{
+display: none;
+}
+
 .btn-abrir i{
     color: white;
     font-size: 40px;
@@ -89,7 +93,7 @@ header .interface{
     right: 0;
     width: 0%;
     overflow: hidden;
-    transition: 5s;
+    transition: 1s;
     z-index: 99999;
 }
 
@@ -114,16 +118,11 @@ header .interface{
 }
 
 .menu-mobile nav ul li a{
-    color:var(--color-3);
+    color:var(--color-white);
     font-size: 20px;
     font-weight: 300;
     padding: 20px 8%;
     display: block;
-}
-
-.menu-mobile nav ul li a:hover{
-    background-color: var(--color-2);
-    color: var(--color-1);
 }
 
 .overlay-menu{
@@ -398,6 +397,19 @@ section.home .flex{
 
 header .menu, .btn-contato{
     display: none;
+}
+
+.btn-abrir{
+    display: flex;
+}
+
+header.rolagem-menu i{
+    color: var(--color-black);
+}
+
+header .container .interface .flex {
+    display: flex;
+    flex-direction: row;
 }
 
 /* section home */
