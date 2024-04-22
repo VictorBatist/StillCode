@@ -13,10 +13,6 @@
 --color-gray:gray;
 }
 
-html{
-    height: 500vh;
-}
-
 body{
     background-color: var(--color-black);
 }
@@ -243,6 +239,7 @@ section.projetos{
 section.projetos .flex{
     justify-content: space-around;
     margin-top: 60px;
+    gap: 20px;
 }
 
 .projetos .img-projet{
@@ -281,4 +278,40 @@ section.projetos .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+/* Estilizando o footer */
+
+footer{
+    padding: 10px 4%;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.redes-socias a i{
+    color: var(--color-white);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.borda{
+    border-top: 2px solid var(--color-white);
+}
+
+.line-footer-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.line-footer-two p{
+    color: var(--color-white);
+    margin-top: 10px;
+}
+
+.line-footer-two p i{
+    color: var(--color-white);
+    font-size: 20px;
 }
