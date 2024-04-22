@@ -315,3 +315,86 @@ footer .line-footer{
     color: var(--color-white);
     font-size: 20px;
 }
+
+/* Responsividade */
+
+@media screen and (max-width: 935px) {
+
+/* Classe Geral */
+
+.flex{
+    flex-direction: column;
+}
+
+section.home .flex{
+    flex-direction: column-reverse;
+}
+
+/* header */
+
+header .menu, .btn-contato{
+    display: none;
+}
+
+/* section home */
+
+section.home{
+height: 700px;
+padding: 40px 8%;
+}
+
+section.home .text-home h1{
+font-size: 60px;
+}
+
+section.home img{
+    width: 100px;
+}
+
+/* section especialidades */
+
+section.especialidades{
+    height: 1450px;
+}
+
+section.especialidades .box-especialidades{
+    text-align: center;
+}
+
+/* section sobre */
+
+section.sobre{
+    height: 1050px;
+}
+
+section.sobre .flex{
+    flex-direction: column-reverse;
+}
+
+/* section projetos */
+
+section.projetos .flex{
+    gap: 60px;
+}
+
+.img-projet{
+    padding: 40px 10%;
+    width: 100%;
+    max-width: 320px;
+    margin: 0;
+
+}
+
+/* Footer */
+
+footer .line-footer .flex{
+    gap: 20px;
+}
+
+footer .line-footer-two{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+}
+
