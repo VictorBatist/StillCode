@@ -201,20 +201,7 @@ section.home .flex .text-home{
 
 section.home h1{
     color: var(--color-white);
-    font-size: 60px;
-}
-
-section.home h2{
-    color: var(--color-white);
-    font-size: 30px;
-}
-
-section.home h1 span{
-    color: var(--color-gray);
-}
-
-section.home h2 span{
-    color: var(--color-gray);
+    font-size: 50px;
 }
 
 /* Estilizando Section Especialidades */
@@ -420,11 +407,7 @@ padding: 40px 8%;
 }
 
 section.home .text-home h1{
-font-size: 60px;
-}
-
-section.home img{
-    width: 100px;
+font-size: 40px;
 }
 
 /* section especialidades */
