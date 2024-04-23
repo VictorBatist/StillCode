@@ -38,7 +38,7 @@ h2{
     text-align: center;
 }
 
-h2 span{
+span{
     color: var(--color-gray);
 }
 
@@ -186,13 +186,14 @@ header a:hover{
 /* Estilizando Section Home */
 
 section.home {
-    padding: 40px 10%;
-    margin-top: 150px;
-    height: 400px;
+    padding: 80px 10%;
+    margin-top: 100px;
+    height: 500px;
 }
 
 section.home .flex{
     gap: 90px;
+    margin-top: 100px;
 }
 
 section.home .flex .text-home{
@@ -207,15 +208,16 @@ section.home h1{
 /* Estilizando Section Especialidades */
 
 section.especialidades{
-    padding: 80px 4%;
+    padding: 60px 4%;
+    margin-top: 100px;
+    height: 700px;
 }
-
-section .especialidades .flex{
-    gap: 60px;
+section.especialidades .interface{
+    margin-top: 50px;
 }
-
 .especialidades .box-especialidades{
     color: var(--color-white);
+    text-align: center;
     padding: 40px;
     border-radius: 20px;
     margin: 35px;
@@ -237,15 +239,18 @@ section .especialidades .flex{
     margin: 11px 0;
 }
 
-/* Estilizando Section home */
+/* Estilizando Section sobre */
 
 section.sobre{
-    padding: 40px 8%;
+    padding: 60px 8%;
+    height: 650px;
 }
 
 section.sobre .flex{
     align-items: center;
     gap: 60px;
+    margin-top: 50px;
+
 }
 
 .sobre .text-sobre{
@@ -282,8 +287,12 @@ font-size: 20px;
 /* Estilizando Section Projetos */
 
 section.projetos{
-    padding: 40px 8%;
+    padding: 60px 8%;
     box-shadow: 0 0 40px 10px rgb(46, 46, 46);
+}
+
+section.projetos .interface{
+    margin-top: 50px;
 }
 
 section.projetos .flex{
