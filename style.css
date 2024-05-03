@@ -432,7 +432,7 @@ section.especialidades .box-especialidades{
 /* section sobre */
 
 section.sobre{
-    height: 1050px;
+    height: 1150px;
 }
 
 section.sobre .flex{
@@ -446,7 +446,7 @@ section.projetos .flex{
 }
 
 .img-projet{
-    padding: 40px 10%;
+    padding: 20px 10%;
     width: 100%;
     max-width: 320px;
     margin: 0;
