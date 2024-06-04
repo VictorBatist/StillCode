@@ -1,0 +1,18 @@
+/* Estilização Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --color-white: white;
+    --color-gray: gray;
+    --color-black: black;
+}
+
+body{
+    background-color: var(--color-black);
+}
+
