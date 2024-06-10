@@ -16,3 +16,25 @@ body{
     background-color: var(--color-black);
 }
 
+h1, p{
+    color: var(--color-white);
+}
+
+section.apresentacao-web img{
+    width: 800px;
+}
+
+section.apresentacao-web .img-apresentacao{
+    width: 760px;
+    height: 860px;
+    background-color: var(--color-gray);
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    position: relative;
+}
+
+section.apresentacao-web .img-apresentacao:hover{
+    background-position: 100% 100%;
+}
